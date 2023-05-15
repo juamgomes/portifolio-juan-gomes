@@ -10,7 +10,7 @@ export function Projects(){
           <div className="flex flex-col gap-4">
             <h1 className="text-blue-2 text-4xl font-semibold">Interface do Spotify</h1>
             <span className="text-zinc-600 font-semibold">Next - Tailwind - React</span>
-            <p className="text-zinc-500 invisible sm:visible">Interface do spotify, feita com Next</p>
+            <p className="text-zinc-500 invisible sm:visible">Interface do spotify, feita com Next e tailwind</p>
             <div className="hidden sm:flex gap-4">
                 <a href="https://github.com/juamgomes/spotify-interface" target="_blank">
                   <IoLogoGithub size={30} className="text-branco mt-10"/>
@@ -46,7 +46,7 @@ export function Projects(){
           <div className="flex flex-col gap-4">
             <h1 className="text-blue-2 text-4xl font-semibold">Relógio digital</h1>
             <span className="text-zinc-600 font-semibold">HTML - CSS - JS</span>
-            <p className="text-zinc-500 invisible sm:visible">Rélogio digital simples feito com HTML, CSS e JS.</p>
+            <p className="text-zinc-500 invisible sm:visible">Rélogio digital simples.</p>
             <div className="hidden sm:flex gap-4">
               <a href="https://github.com/juamgomes/relogio-digital" target="_blank">
                 <IoLogoGithub size={30} className="text-branco mt-10"/>
