@@ -42,7 +42,7 @@ export function Projects(){
         </div>
         
           <div className="flex flex-col sm:flex-row sm:gap-10 gap-6 p-4 w-3/4 h-72 rounded-xl bg-zinc-800">
-          <Image src="/Relógio-digital-img.JPG" width={488} height={288} className="rounded-xl" alt="Relógio digital"/>
+          <Image src="/Relogio-digital-img.jpg" width={488} height={288} className="rounded-xl" alt="Relógio digital"/>
           <div className="flex flex-col gap-4">
             <h1 className="text-blue-2 text-4xl font-semibold">Relógio digital</h1>
             <span className="text-zinc-600 font-semibold">HTML - CSS - JS</span>
