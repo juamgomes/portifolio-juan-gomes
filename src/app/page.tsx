@@ -13,10 +13,10 @@ export default function Home() {
       <div><Image className="cursor-pointer" src="/Logo-Juan.svg" alt="Logo com o nome Juan" width={130} height={130}/></div>
       <ol className="flex gap-4 sm:gap-6 text-sm sm:text-base items-center mt-4 sm:mt-0">
         <Link href="#TheHome">
-          <li><a>Sobre</a></li>
+          <li>Sobre</li>
         </Link>
         <Link href="#Projects">
-          <li><a>Projetos</a></li>
+          <li>Projetos</li>
         </Link>
         <li><a className="bg-blue text-black hover:text-blue hover:bg-black transition-colors cursor-pointer font-semibold py-2 px-6 sm:px-9 rounded-full" href="https://www.linkedin.com/in/juan-martins-gomes-a5ab21212/" target="_blank">Vamos nos conectar</a></li>
       </ol>
