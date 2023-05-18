@@ -1,5 +1,4 @@
 'use client';
-import { DiGit, DiReact, DiNodejs, DiPython, DiHtml5, DiCss3, DiJavascript, DiVisualstudio } from "react-icons/di"
 import { motion } from "framer-motion"
 
 const parent = {

@@ -1,7 +1,9 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { Poppins } from 'next/font/google';
+const poppins = Poppins({
+  weight: '400',
+  subsets: ['latin']
+})
 
 export const metadata = {
   title: 'Portifólio',
@@ -14,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={poppins.className}>
       <body className="bg-zinc-main">{children}</body>
     </html>
   )

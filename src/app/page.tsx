@@ -8,17 +8,13 @@ import { TheHeader } from '@/components/TheHeader';
 export default function App() {
   return (
     <main>
-      <TheHeader />
-          <div id='TheHome'>
-            <TheHome />
-          </div>
+          <TheHeader />
+          <div id='TheHome'><TheHome /></div>
           <Contact />
-          <div id='Projects'>
-            <Projects />
-          </div>
+          <div id='Projects'><Projects /></div>
         
-      <Skills />
-      <TheFooter />
+          <div id='Skills'><Skills /></div>
+          <TheFooter />
     </main>
   )
 }
