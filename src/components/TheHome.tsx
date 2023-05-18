@@ -1,5 +1,6 @@
 import Image from "next/image"
 
+
 export function TheHome(){
   return(
     <div className="text-branco sm:mx-36 bg-zinc-main sm:py-11 flex flex-col sm:flex-row items-center justify-between">
