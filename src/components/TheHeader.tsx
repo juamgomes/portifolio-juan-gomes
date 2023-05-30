@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import ThemeMode from './ThemeMode';
+import { BsLinkedin } from "react-icons/bs";
 
 export function TheHeader() {
   return (
@@ -19,9 +20,14 @@ export function TheHeader() {
             <Link href="#Skills">
                 <li>Skills</li>
             </Link>
-        </ol>
-        <a className="bg-blue text-white hover:text-black dark:text-black dark:hover:text-blue hover:bg-blue/20 dark:hover:bg-black transition-colors cursor-pointer font-normal py-2 px-2 sm:px-9 rounded-full" href="https://www.linkedin.com/in/juan-martins-gomes-a5ab21212/" target="_blank">Vamos nos conectar</a>
-        <div className=''>
+        </ol> 
+        <a href="https://www.linkedin.com/in/juan-martins-gomes-a5ab21212/" target="_blank">
+        <div className="flex gap-2 items-center bg-blue text-white hover:text-black dark:text-black dark:hover:text-blue hover:bg-blue/20 dark:hover:bg-black transition-colors cursor-pointer font-normal py-2 px-2 sm:px-9 rounded-full">
+          <BsLinkedin />
+          <span>Vamos nos conectar</span>
+        </div>
+        </a>
+        <div>
           <ThemeMode />
         </div>
     </header>
