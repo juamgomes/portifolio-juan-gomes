@@ -6,7 +6,7 @@ export function TheHeader() {
   return (
     <header 
     id='header' 
-    className="sm:fixed w-full dark:bg-zinc-main/50 dark:text-white flex flex-col sm:flex-row justify-between py-4 sm:py-4 px-4 lg:md:sm:px-28 items-center gap-5"
+    className="sm:fixed w-full bg-white/90 dark:bg-zinc-main/50 dark:text-white flex flex-col sm:flex-row justify-between py-4 sm:py-4 px-4 lg:md:sm:px-28 items-center gap-5"
     >
       <Image className="cursor-pointer" src="/Logo-Juan.svg" alt="Logo com o nome Juan" width={130} height={130}/>
         <ol className="flex gap-4 sm:gap-6 text-sm sm:text-base items-center mt-4 sm:mt-0">
