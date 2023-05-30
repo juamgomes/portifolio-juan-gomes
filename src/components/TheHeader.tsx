@@ -19,7 +19,7 @@ export function TheHeader() {
             <Link href="#Skills">
                 <li>Skills</li>
             </Link>
-              <li><a className="bg-blue text-black hover:text-blue hover:bg-black transition-colors cursor-pointer font-semibold py-2 px-6 sm:px-9 rounded-full" href="https://www.linkedin.com/in/juan-martins-gomes-a5ab21212/" target="_blank">Vamos nos conectar</a></li>
+              <li><a className="bg-blue text-white hover:text-black dark:text-black dark:hover:text-blue hover:bg-blue/20 dark:hover:bg-black transition-colors cursor-pointer font-normal py-2 px-6 sm:px-9 rounded-full" href="https://www.linkedin.com/in/juan-martins-gomes-a5ab21212/" target="_blank">Vamos nos conectar</a></li>
             <div>
               <ThemeMode />
             </div>
