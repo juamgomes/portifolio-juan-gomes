@@ -1,9 +1,8 @@
 import Image from "next/image"
 
-
 export function TheHome(){
   return(
-    <div className="text-branco sm:mx-36 bg-zinc-main sm:py-11 flex flex-col sm:flex-row items-center justify-between">
+    <div className="dark:text-branco sm:mx-36 sm:py-11 flex flex-col sm:flex-row items-center justify-between">
       <div className="flex-col mt-10 w-3/6">
         <p className="text-3xl">Olá, eu sou</p>
         <h1 className="sm:text-6xl text-5xl font-semibold my-5">Juan Gomes</h1>
@@ -18,7 +17,7 @@ export function TheHome(){
       </div>
 
       <div className="w-3/6">
-        <Image src="/Dev animation.gif" width={800} height={700} alt="Imagem de um desenvolvedor programando"/>
+        <Image src="/Developer activity-bro.png" width={800} height={700} alt="Imagem de um desenvolvedor programando"/>
       </div>
     </div>
   )

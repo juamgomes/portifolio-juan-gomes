@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={poppins.className}>
-      <body className="bg-zinc-main">{children}</body>
+      <body>{children}</body>
     </html>
   )
 }

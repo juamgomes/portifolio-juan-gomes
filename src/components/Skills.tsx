@@ -26,7 +26,7 @@ export function Skills(){
   const mountCards = () => {
     return skillsData.map((skill) => (
       <motion.div key={skill.name} variants={parent} initial="variantA" whileHover="variantB" 
-      className="border-2 hover:border-none border-zinc-400 flex cursor-pointer hover:bg-blue-2 font-semibold text-branco hover:text-black items-center justify-center gap-2 rounded-lg p-2">
+      className="border-2 hover:border-none border-zinc-400 flex cursor-pointer hover:bg-blue-2 font-semibold dark:text-branco hover:text-black items-center justify-center gap-2 rounded-lg p-2">
         <img className="w-9" src={skill.logo} />
         <span>{skill.name}</span>
       </motion.div>
@@ -36,7 +36,7 @@ export function Skills(){
 
   return(
     <div className="rounded-xl w-3/4 p-10 mt-10 m-auto">
-      <h1 className="text-branco text-center font-semibold text-xl mb-6">Skills</h1>
+      <h1 className="dark:text-branco text-center font-semibold text-xl mb-6">Skills</h1>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 place-content-center">
         
         {mountCards()}
