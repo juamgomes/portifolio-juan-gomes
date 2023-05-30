@@ -6,7 +6,7 @@ export function TheHeader() {
   return (
     <header 
     id='header' 
-    className="sm:fixed w-full dark:bg-zinc-main/50 dark:text-white flex flex-col sm:flex-row justify-between py-4 sm:py-6 px-4 sm:px-28 items-center"
+    className="sm:fixed w-full dark:bg-zinc-main/50 dark:text-white flex flex-col sm:flex-row justify-between py-4 sm:py-4 px-4 lg:md:sm:px-28 items-center gap-5"
     >
       <Image className="cursor-pointer" src="/Logo-Juan.svg" alt="Logo com o nome Juan" width={130} height={130}/>
         <ol className="flex gap-4 sm:gap-6 text-sm sm:text-base items-center mt-4 sm:mt-0">
@@ -19,11 +19,11 @@ export function TheHeader() {
             <Link href="#Skills">
                 <li>Skills</li>
             </Link>
-              <li><a className="bg-blue text-white hover:text-black dark:text-black dark:hover:text-blue hover:bg-blue/20 dark:hover:bg-black transition-colors cursor-pointer font-normal py-2 px-6 sm:px-9 rounded-full" href="https://www.linkedin.com/in/juan-martins-gomes-a5ab21212/" target="_blank">Vamos nos conectar</a></li>
-            <div>
-              <ThemeMode />
-            </div>
         </ol>
+        <a className="bg-blue text-white hover:text-black dark:text-black dark:hover:text-blue hover:bg-blue/20 dark:hover:bg-black transition-colors cursor-pointer font-normal py-2 px-2 sm:px-9 rounded-full" href="https://www.linkedin.com/in/juan-martins-gomes-a5ab21212/" target="_blank">Vamos nos conectar</a>
+        <div className=''>
+          <ThemeMode />
+        </div>
     </header>
   )
 }

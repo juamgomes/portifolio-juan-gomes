@@ -44,12 +44,12 @@ export function Projects(){
 
     const ProjectsCards = () => {
     return myProjectsData.map((pro) => (
-      <div key={pro.name} className="flex flex-col sm:flex-row sm:gap-10 gap-6 p-4 w-3/4 h-auto rounded-xl bg-blue/10 dark:bg-zinc-800">
+      <div key={pro.name} className="flex flex-col lg:md:sm:flex-row lg:md:sm:gap-10 gap-6 p-4 w-3/4 h-auto rounded-xl justify-center lg:md:justify-normal items-center bg-blue/10 dark:bg-zinc-800">
           <Image src={pro.image} width={488} height={288} className="rounded-xl" alt="Print da tela do Spotify"/>
           <div className="flex flex-col gap-4">
             <h1 className="text-blue-2 text-4xl font-semibold">{pro.name}</h1>
             <span className="text-zinc-600 font-semibold">{pro.tecnologias}</span>
-            <p className="sm:flex text-zinc-500 hidden">{pro.description}</p>
+            <p className="lg:md:sm:flex text-zinc-500 hidden">{pro.description}</p>
             <div className="flex gap-4">
                 <a href={pro.linkGit} target="_blank">
                   <IoLogoGithub size={30} className="text-blue dark:text-branco mt-10"/>
