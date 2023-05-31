@@ -27,12 +27,12 @@ export function Projects(){
     linkGit: 'https://github.com/juamgomes/Lista-de-tarefas',
     linkProject: 'https://lista-de-tarefas-mu-dusky.vercel.app/'},
 
-    {image: '/Relogio-digital-img.jpg', 
+/*     {image: '/Relogio-digital-img.jpg', 
     name: 'Relógio digital', 
     tecnologias: 'HTML - CSS - JS', 
     description: 'Rélogio digital simples.',
     linkGit: 'https://github.com/juamgomes/relogio-digital',
-    linkProject: 'https://juamgomes.github.io/relogio-digital/'},
+    linkProject: 'https://juamgomes.github.io/relogio-digital/'}, */
 
     {image: '/Conversor-de-temperatura-img.JPG', 
     name: 'Conversor de temperatura', 

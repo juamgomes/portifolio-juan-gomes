@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function TheHome(){
   return(
-    <div className="dark:text-branco sm:mx-36 sm:py-11 flex flex-col lg:sm:flex-row items-center justify-between">
+    <div className="dark:text-branco md:lg:sm:mx-36 lg:md:sm:py-11 flex flex-col lg:md:sm:flex-row items-center justify-between">
       <div className="flex-col mt-10 w-3/6">
         <p className="text-3xl">Olá, eu sou</p>
         <h1 className="sm:text-6xl text-5xl font-semibold my-5">Juan Gomes</h1>
