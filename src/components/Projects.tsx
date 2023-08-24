@@ -6,6 +6,13 @@ import Image from "next/image"
 export function Projects(){
 
   const  myProjectsData = [
+    {image: '/filmes.png', 
+    name: 'Biblioteca de filmes', 
+    tecnologias: 'React - Tailwind', 
+    description: 'Lib de filmes, consumindo a API do TMDB.',
+    linkGit: 'https://github.com/juamgomes/movies_lib',
+    linkProject: 'https://movies-lib-rouge.vercel.app'},
+
     {image: '/Spotify-img.JPG', 
     name: 'Interface do Spotify', 
     tecnologias: 'Next - Tailwind - React', 
