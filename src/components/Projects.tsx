@@ -6,6 +6,13 @@ import Image from "next/image"
 export function Projects(){
 
   const  myProjectsData = [
+    {image: '/memorial.PNG',
+    name: 'Memorial Da Imprensa Oficial Do Estado Do Amazonas',
+    tecnologias: 'Nuxt - Tailwind - PostgreSQL',
+    description: 'Memorial da Impresa Oficial do Amazonas. Onde em comemoração aos 130 anos da instituição foi feito um website como museu multimídia interativo que registra seus marcos históricos. No qual foi usado Rest framework junto com PostgreSQL no backend para armazenar e servir as informações a aplicação frontend feita em Nuxt.js',
+    linkgit: 'https://github.com/IOA-Sistemas/memorial-imprensa',
+    linkProject: 'https://memorial.imprensaoficial.am.gov.br'},
+
     {image: '/filmes.png', 
     name: 'Biblioteca de filmes', 
     tecnologias: 'React - Tailwind', 
